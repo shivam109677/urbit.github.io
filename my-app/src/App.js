@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+
+//const logo =require ("./logo.svg");
+//const app =require ("./App.css");
 import './App.css';
 
+let name = "Shivam, Gauri, Anurag";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <>
+  <nav>
+    <li>HOME</li>    
+    <li>ABOUT</li>   
+    <li>HELP</li>   
+
+    <div className = "first">
+      <h1>Hello {name}</h1>
     </div>
+  </nav>
+  </>
   );
 }
 
