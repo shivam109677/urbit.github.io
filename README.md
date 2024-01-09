@@ -1,3 +1,3 @@
-# urbi
+# urbit
 #EVARA
 
