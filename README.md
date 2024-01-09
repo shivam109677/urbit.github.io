@@ -1,4 +1,4 @@
-# urbitT 
+# urbit 
 To access this project 
 -fork the project 
 -create a branch 
